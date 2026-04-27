@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL Almendro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/galeria.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/servicios.css">
+<link rel="stylesheet" href="css/contacto.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+
+  <div class="container-fluid d-flex flex-column align-items-center">
+
+    <img src="img/solo flor.jpeg" class="logo-img mb-2">
+
+    <h1 class="logo-text ">El Almendro</h1>
+    <p class="logo-subtitle text-light">Tu lugar de descanso en La mas linda</p>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="menuNav">
+        <ul class="navbar-nav text-center">
+            <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galería</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+
+  </div>
+
+</nav>
+        <section id="inicio" class="hero">
+            <img src="img/frentesol.jpeg" alt="Puerto Madryn" class="hero-img">
+        </section>
+    </header>
+    <main>
+        <section id="galeria" class="galeria">
+    <h2 class="galeria-titulo">Galería</h2>
+
+    <div class="galeria-grid">
+
+        <a href="#img1"><img src="img/frentee.jpg"></a>
+        <a href="#img2"><img src="img/living.jpeg"></a>
+        <a href="#img3"><img src="img/living2.jpeg"></a>
+        <a href="#img4"><img src="img/pasillo.jpeg"></a>
+        <a href="#img5"><img src="img/baño.jpeg"></a>
+        <a href="#img6"><img src="img/habitacion.jpeg"></a>
+        <a href="#img7"><img src="img/havitacion2.jpeg"></a>
+        <a href="#img8"><img src="img/patio.jpeg"></a>
+
+    </div>
+</section>
+<div id="img1" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img8" class="prev">◀</a>
+    <img src="img/frentee.jpg">
+    <a href="#img2" class="next">▶</a>
+</div>
+
+<div id="img2" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img1" class="prev">◀</a>
+    <img src="img/living.jpeg">
+    <a href="#img3" class="next">▶</a>
+</div>
+
+<div id="img3" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img2" class="prev">◀</a>
+    <img src="img/living2.jpeg">
+    <a href="#img4" class="next">▶</a>
+</div>
+
+<div id="img4" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img3" class="prev">◀</a>
+    <img src="img/pasillo.jpeg">
+    <a href="#img5" class="next">▶</a>
+</div>
+
+<div id="img5" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img4" class="prev">◀</a>
+    <img src="img/baño.jpeg">
+    <a href="#img6" class="next">▶</a>
+</div>
+
+<div id="img6" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img5" class="prev">◀</a>
+    <img src="img/habitacion.jpeg">
+    <a href="#img7" class="next">▶</a>
+</div>
+
+<div id="img7" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img6" class="prev">◀</a>
+    <img src="img/havitacion2.jpeg">
+    <a href="#img8" class="next">▶</a>
+</div>
+
+<div id="img8" class="lightbox">
+    <a href="#galeria" class="close">✕</a>
+    <a href="#img7" class="prev">◀</a>
+    <img src="img/patio.jpeg">
+    <a href="#img1" class="next">▶</a>
+</div>
+
+<section id="servicios" class="cards">
+    <h2 class="cards-titulo">Servicios</h2>
+
+    <div class="cards-container">
+
+        <div class="card-service">
+            <h3>Alquiler Temporario</h3>
+            <p>Departamentos completamente equipados para estadías cortas en Puerto Madryn.</p>
+        </div>
+
+        <div class="card-service">
+            <h3>Ubicación Estratégica</h3>
+            <p>Propiedades cerca del centro, a cinco cuadras de la playa y de los principales puntos turísticos.</p>
+        </div>
+
+        <div class="card-service">
+            <h3>Atención Personalizada</h3>
+            <p>Asistencia directa con sus dueños para mayor comodidad.</p>
+        </div>
+        <div class="card-service">
+            <h3>Comodidades</h3>
+            <p>Contamos con sector de parrillas, estacionamiento y wifi</p>
+        </div>
+
+    </div>
+</section>
+<section id="contacto" class="contacto">
+
+    <h2 class="contacto-titulo">Contacto</h2>
+
+    <form class="formulario">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="nombre">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" placeholder="teléfono">
+
+        <label for="tipo">Tipo de consulta</label>
+        <select id="tipo">
+            <option>Alquiler</option>
+            <option>Disponibilidad</option>
+            <option>Información general</option>
+        </select>
+
+        <label>¿Necesitás cochera?</label>
+        <div class="radio-group">
+            <label><input type="radio" name="cochera"> Sí</label>
+            <label><input type="radio" name="cochera"> No</label>
+        </div>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribí tu consulta"></textarea>
+
+        <div class="botones">
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </div>
+
+    </form>
+
+</section>
+</main>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>El Almendro</h3>
+            <p>Tu lugar de descanso en Puerto Madryn.</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Secciones</h4>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contacto</h4>
+            <p>Email: rossittol14@gmail.com</p>
+            <p>Tel: +54 280 4 563223</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 El Almendro - Todos los derechos reservados</p>
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

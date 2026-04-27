@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+.galeria {
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+    background-color: #8A8159;
+    align-items: center;
+}
+.galeria-titulo {
+    font-size: 32px;
+    color: #E6ded3;
+    margin-bottom: 25px;
+}
+.galeria-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.galeria-grid {
+    display: block;
+    overflow: hidden;
+}
+
+/*el color rosa del borde es parte de la flor del almendro <3*/
+.galeria-grid img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #F5C6D6;
+    border-radius: 15px;
+}
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.85);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+.lightbox:target {
+    display: flex;
+}
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+.close,
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8B5E3C;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.close {
+    top: 20px;
+    right: 30px;
+}
+
+.prev {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.prev:hover,
+.next:hover {
+    color: #E6ded3;
+    transform: translateY(-50%) scale(1.2);
+    }

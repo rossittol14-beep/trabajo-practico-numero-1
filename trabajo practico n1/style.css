@@ -1,0 +1,111 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8A8159;
+    padding: 15px 30px;
+}
+.logo-img {
+    width: 200px;
+    height: auto;
+}
+
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #E6ded3;
+    letter-spacing: 1.5px;
+    margin: 0;
+    margin-top: -10px;
+}
+.nav-link {
+    color: #E6ded3;
+}
+.logo-subtitle {
+    font-size: 14px;
+    color: #E6ded3;
+    margin: 0;
+    margin-top: -5px;
+    letter-spacing: 1px;
+}
+.hero {
+    margin-top: 0;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A8159;
+}
+.hero-img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    border: 1.5px solid #E6ded3;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+}
+section {
+    min-height: 100vh;
+    padding: 60px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-margin-top: 80px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+html {
+    scroll-behavior: smooth;
+}
+@media (max-width: 768px) {
+
+    .logo-text {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .logo-subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 95%;
+        height: auto;
+    }
+
+    .galeria-grid {
+        justify-content: center;
+    }
+
+    .galeria-grid img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-service {
+        width: 90%;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+body {
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
